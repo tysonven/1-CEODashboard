@@ -304,11 +304,10 @@ footer {
 
 .charts-container { /* Plural - the grid parent */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Let's stick to this for responsive columns */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
-    margin-bottom: 30px;
-    grid-template-rows: 400px; /* NEW: Explicitly set the row height to 400px */
-    /* If your charts might wrap to multiple rows, you might eventually change this to grid-auto-rows: 400px; */
+    margin-bottom: 50px; /* Increase from 30px to 50px for more space */
+    grid-template-rows: 400px;
 }
 
 .chart-container { /* Singular - each chart's direct wrapper */
