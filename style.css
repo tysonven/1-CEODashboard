@@ -301,10 +301,16 @@ footer {
         border-left: 3px solid #999 !important;
     }
 }
-.chart-container canvas {
+/*.chart-container canvas {
     max-width: 100%;
     max-height: 100%;
     width: auto !important; /* Override Chart.js inline style */
     height: auto !important; /* Override Chart.js inline style */
+}
+*/
+.chart-container canvas {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
 }
 
