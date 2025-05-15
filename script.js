@@ -266,8 +266,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     padding: {
                         left: 10,
                         right: 10,
-                        top: 10,
-                        bottom: 10
+                        top: 30,
+                        bottom: 30
                     }
                 }
             }
@@ -313,8 +313,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     padding: {
                         left: 10,
                         right: 10,
-                        top: 10,
-                        bottom: 10
+                        top: 30,
+                        bottom: 30
                     }
                 }
             }
