@@ -258,7 +258,20 @@ document.addEventListener("DOMContentLoaded", () => {
                     borderWidth: 1
                 }]
             },
-            options: { scales: { y: { beginAtZero: true } }, responsive: true, maintainAspectRatio: false }
+            options: {
+                scales: { y: { beginAtZero: true } },
+                responsive: true,
+                maintainAspectRatio: false,
+                layout: { // <<< ADD THIS BLOCK
+                    padding: {
+                        left: 10,
+                        right: 10,
+                        top: 10,
+                        bottom: 10
+                    }
+                }
+            }
+
         });
 
         const profitCtx = document.getElementById("profitChart").getContext("2d");
@@ -292,7 +305,20 @@ document.addEventListener("DOMContentLoaded", () => {
                     borderWidth: 1
                 }]
             },
-            options: { responsive: true, maintainAspectRatio: false, plugins: { title: { display: true, text: "Profit Composition" } } }
+            options: {
+                /* ... other options ... */
+                responsive: true,
+                maintainAspectRatio: false,
+                layout: { // <<< ADD THIS BLOCK
+                    padding: {
+                        left: 10,
+                        right: 10,
+                        top: 10,
+                        bottom: 10
+                    }
+                }
+            }
+
         });
     }
 
