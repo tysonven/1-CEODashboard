@@ -267,7 +267,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         left: 10,
                         right: 10,
                         top: 30,
-                        bottom: 50
+                        bottom: 60
                     }
                 }
             }
@@ -314,7 +314,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         left: 10,
                         right: 10,
                         top: 30,
-                        bottom: 50
+                        bottom: 60
                     }
                 }
             }
